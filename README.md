@@ -40,9 +40,7 @@
    - WAV 格式（16位PCM）
    - 时长 ≤8秒
    - 采样率建议 44100Hz 或更低
-3. 测试建议：
-   - 开机音：`net start SoundService`
-   - 关机音：`net stop SoundService`
+3. 测试开机音：`net start SoundService`
 
 ## 🤝 贡献指南
 
@@ -74,7 +72,7 @@ dotnet add package Microsoft.Windows.Compatibility
 dotnet publish -c Release -r win-x64 --self-contained true
 ```
 
-## 关于项目自带的雨林木风提示音出处
+### 项目自带的雨林木风提示音出处
 
 - `startup.wav`: Falcom 《双星物语》 - おやすみ
 - `shutdown.wav`: Wolf Team 《Tales of Phantasia》 - Contract
