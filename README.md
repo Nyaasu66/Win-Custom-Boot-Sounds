@@ -52,23 +52,10 @@
 ### 自行编译
 
 1. 需要安装 [.NET 9.0 SDK](https://dotnet.microsoft.com/download/dotnet/9.0)
-2. 创建项目
+2. 克隆本仓库，进入目录，恢复安装依赖并构建
 
 ```powershell
-dotnet new console -n SoundService
-cd SoundService
-```
-
-3. 替换`Program.cs`内容为本仓库同名文件代码
-4. 添加必要引用
-
-```powershell
-dotnet add package Microsoft.Windows.Compatibility
-```
-
-5. 构建
-
-```powershell
+dotnet restore
 dotnet publish -c Release -r win-x64 --self-contained true
 ```
 
