@@ -22,15 +22,15 @@
 
 ### 安装步骤
 ```bash
-# 克隆仓库
+# 克隆仓库（或者直接 Download ZIP）
 git clone https://github.com/Nyaasu66/Win-Custom-Boot-Sounds.git
 cd Win-Custom-Boot-Sounds
 
-# 复制音频文件到项目根目录
+# 复制替换音频文件到项目根目录，保证文件名一致（默认自带的是雨林木风的提示音）
 cp "你的开机音频.wav" startup.wav
 cp "你的关机音频.wav" shutdown.wav
 
-# 以管理员身份运行安装脚本
+# 以管理员身份运行安装脚本（如果成功会自动播放开机音，音量注意）
 右键点击 install.bat -> "以管理员身份运行"
 ```
 
