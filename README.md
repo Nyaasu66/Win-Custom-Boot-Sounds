@@ -15,13 +15,6 @@
 
 ## ⚡ 快速开始
 
-### 准备工作
-
-1. 准备两个WAV音频文件：
-   - `startup.wav` - 开机提示音（≤8秒）
-   - `shutdown.wav` - 关机提示音（≤8秒）
-2. 确保系统已安装 [.NET 9.0 运行时](https://dotnet.microsoft.com/download/dotnet/9.0)
-
 ### 安装步骤
 
 1. 在 Release 下载最新版本压缩包，解压
@@ -57,6 +50,29 @@
 
 - 支持 MP3 等其他格式转换
 - 创建图形化配置界面
+
+### 自行编译
+
+1. 需要安装 [.NET 9.0 SDK](https://dotnet.microsoft.com/download/dotnet/9.0)
+2. 创建项目
+
+```powershell
+dotnet new console -n SoundService
+cd SoundService
+```
+
+3. 替换`Program.cs`内容为本仓库同名文件代码
+4. 添加必要引用
+
+```powershell
+dotnet add package Microsoft.Windows.Compatibility
+```
+
+5. 构建
+
+```powershell
+dotnet publish -c Release -r win-x64 --self-contained true
+```
 
 ## 关于项目自带的雨林木风提示音出处
 
