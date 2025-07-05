@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Windows 10+](https://img.shields.io/badge/Windows-10+-0078D6)
 
-为 Windows 添加自定义开关机提示音的轻量级解决方案，通过Windows服务实现稳定播放。
+为 Windows 添加自定义开关机提示音的轻量级解决方案，通过 Windows 服务实现稳定播放。
 
 ## ✨ 功能特性
 - 开机自动播放自定义提示音（≤8秒）
@@ -23,8 +23,8 @@
 ### 安装步骤
 ```bash
 # 克隆仓库
-git clone https://github.com/yourusername/Win10-Custom-Boot-Sounds.git
-cd Win10-Custom-Boot-Sounds
+git clone https://github.com/Nyaasu66/Win-Custom-Boot-Sounds.git
+cd Win-Custom-Boot-Sounds
 
 # 复制音频文件到项目根目录
 cp "你的开机音频.wav" startup.wav
