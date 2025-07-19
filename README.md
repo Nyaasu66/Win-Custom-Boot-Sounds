@@ -63,3 +63,4 @@ dotnet publish -c Release -r win-x64 --self-contained true
 > 还原雨林木风、番茄花园等盗版 Windows XP 系统的使用体验（x）
 - `startup.wav`: Falcom 《双星物语》 - おやすみ
 - `shutdown.wav`: Wolf Team 《Tales of Phantasia》 - Contract
+- `startup2.wav`: Bandari - 《Moonglow（月光水岸）》
